@@ -1,0 +1,19 @@
+{
+  "name": "pixiv-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "for-pixiv-R18-rate",
+  "main": "app.js",
+  "author": "utopi-a",
+  "license": "MIT",
+  "scripts": {
+    "start": "netlify dev"
+  },
+  "dependencies": {
+    "@netlify/functions": "^2.8.1",
+    "cors": "^2.8.5",
+    "netlify-cli": "^17.33.4",
+    "netlify-lambda": "^2.0.16",
+    "typescript": "^5.5.4"
+  }
+}
